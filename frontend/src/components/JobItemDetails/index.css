@@ -1,0 +1,181 @@
+.job-item-details-container {
+  background-color: #000000;
+  padding: 40px;
+  min-height: 100vh;
+}
+.job-details-card {
+  background-color: #272727;
+  padding: 40px;
+  border-radius: 10px;
+}
+.description-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.visit-button {
+  background-color: transparent;
+  color: #6366f1;
+  border: 0;
+}
+
+.similar-jobs {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.similar-jobs-items {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.similar-jobs-heading {
+  color: #ffffff;
+  font-size: 30px;
+  font-family: 'Roboto';
+}
+.similar-jobs-job-card {
+    width: 100%;
+    background-color: #272727;
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+@media (min-width: 768px) {
+  .similar-jobs-items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 0;
+  }
+  .similar-jobs-job-card {
+    width: 30%;
+  }
+}
+
+.skills-container {
+  margin-top: 20px;
+}
+
+.skills-section-title {
+  color: #ffffff;
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+.skill-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.skill-item {
+  display: flex;
+  align-items: center;
+  width: 45%;
+  gap: 12px;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+@media (min-width: 768px) {
+  .skill-item {
+    width: 30%;
+  }
+}
+
+.skill-image {
+  width: 40px;
+  height: 40px;
+}
+
+.skill {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.life-at-companey-section {
+  margin-top: 32px;
+}
+
+.life-at-companey-details {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .life-at-companey-section {
+    display: flex;
+    gap: 40px;
+  }
+}
+
+.life-at-companey-section h1 {
+  color: #ffffff;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.life-at-companey-section p {
+  color: #ffffff;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.life-at-companey-section img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 8px;
+}
+
+.job-item-title {
+  font-size: 15px;
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+
+.job-item-rating-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.rating-icon {
+  color: #fbbf24;
+}
+
+.job-item-rating {
+  font-size: 15px;
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+
+.job-item-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.job-item-meta-details {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.job-meta-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #ffffff;
+}
+
+.job-item-package {
+  color: #ffffff;
+  font-family: 'Roboto';
+}

@@ -1,0 +1,11 @@
+dependencies:
+  bcryptjs: 3.0.2
+lockfileVersion: 5.2
+packages:
+  /bcryptjs/3.0.2:
+    dev: false
+    hasBin: true
+    resolution:
+      integrity: sha512-k38b3XOZKv60C4E2hVsXTolJWfkGRMbILBIe2IBITXciy5bOsTKot5kDrf3ZfufQtQOUN5mXceUEpU1rTl9Uog==
+specifiers:
+  bcryptjs: ^3.0.2

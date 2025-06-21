@@ -1,0 +1,15 @@
+{
+  "name": "jobbyapp",
+  "version": "1.0.0",
+  "description": "In this project, let's build a **Jobby App** by applying the concepts we have learned till now.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.2"
+  }
+}
